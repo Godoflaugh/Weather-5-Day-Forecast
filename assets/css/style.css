@@ -19,3 +19,22 @@ body{
   padding: 20px;
   color: white;
 }
+
+
+/* Change coloring with hover */
+.btn:hover{
+  background-color: blue;
+  color: black;
+
+
+}
+
+.row{
+  justify-content: space-between;
+}
+
+.card-body{
+  text-align: left;
+  font-weight: bold;
+  background-color: aqua;
+}

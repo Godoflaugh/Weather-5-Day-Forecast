@@ -1,26 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Weather App</title>
-  <link rel="stylesheet" href="style.css"></link>
+// Variable Declaration
 
 
-</head>
-<body>
-  
-  <header id="container-title">
-    <h1>Weather Dashboard</h1>
 
-  </header>
 
+// API Database grabbed
+
+
+  var requestURL = "http://api.openweathermap.org/data/2.5/forecast?id=524901&appid={af9e5eb7dac10eb6ccfc9dd6c514a610}"
+
+
+  fetch(requestURL)
+    .then(res => console.log(res))
   
 
-
-
-
-  <script src="script.js"></script>
-</body>
-</html>
