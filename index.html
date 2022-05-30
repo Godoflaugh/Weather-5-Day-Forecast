@@ -35,12 +35,12 @@
     <div class="row p-2"> 
 
         <!-- Left Column -->
-      <form class="col-sm-12 col-md-3 left-panel>
+      <form class="col-sm-12 col-md-3 left-panel">
               <h1>Search for a city</h1>
               <div class=" form-row">
         <div class="form-group">
           <label for="cityName"></label><br>
-          <input class="form-control form-control-lg cityInput" type="text" id="cityName" name="cityName" value="i.e San Diego"><br>
+          <input class="form-control form-control-lg searchBar" type="text" id="cityName" name="cityName"><br>
         </div>
 
         </div>
@@ -53,47 +53,37 @@
         <div class="row recentSearches mt-0">
           <div class="col-sm-12">
             <h2>Recent Searches</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore laudantium suscipit eum, cum incidunt et vero, maxime asperiores ipsam natus accusantium eos nostrum fugit laborum nam hic eveniet, quibusdam obcaecati!</p>
           </div>
-          <div class="row cityList border m-0"></div>
+          <div class="row cityList m-0"></div>
         </div>
       </form>
 
 
-
             <!-- Main Card for weather -->
-      <div class="col-sm-12 col-md-9 right-panel">
-        <div class="row">
+      <div class="col-sm-12 col-md-9 right-panel border">
+        <!-- <div class="row border"> -->
           <div class="col-12 currentWeather p-0 order-md-2">
             <div class="d-flex cityName">
-              <h2 id="city"></h2>
+              <h2 id="city">Current City</h2>
               <h3 id="date"></h3>
             </div>
-            <p class="pt-1 pl-2">Temperature: <span id="temperature"></span> &deg;F</p>
-            <p class="pl-2">Humidity: <span id="humidity"></span></p>
-            <p class="pl-2">Wind Speed: <span id="wind"></span></p>
-            <p class="pl-2">UV In <span id= "UV"></span></p>
+            <p class="pt-1 pl-2"><span id="temperature">Temperature: </span></p>
+            <p class="pl-2"><span id="humidity">Humidity: </span></p>
+            <p class="pl-2"><span id="wind"> Wind speed: </span></p>
+            <p class="pl-2"><span id= "UV">UVI: </span></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quasi reiciendis culpa numquam placeat deleniti non distinctio aliquid officiis magni enim iusto eaque reprehenderit, minima nulla voluptas delectus quod voluptatibus. lore</p>
           </div>
-        </div>
+        
       </div>
     
 
     
       <!-- 5 Day Forecast Cards -->
-    <div class="row fiveDayForecast">
-      <div class="col-12 fiveDayForecast border">
+      <div class="col-sm-12 col-md-9 fiveDayForecast border ">
+      <div class="fiveDayForecast">
         <h2>5 Day Weather Forecast</h2>
         <div class="row">
-          <div class="col-sm-10 col-md-4 col-lg-2 p-lg-2 text-center">
-            <div class="card dayOne m-0">
-              <div class="card-body p-1">
-                <p class="card-title">Date</p>
-                <p class="temp">Temperature:</p>
-                <p class="humidity">Humidity:</p>
-                <p class="wind">Wind</p>
-              </div>
-            </div>
-          </div>
-      
           <div class="col-sm-10 col-md-4 col-lg-2 p-1 text-center">
             <div class="card dayOne m-0">
               <div class="card-body p-1">
@@ -106,7 +96,7 @@
           </div>
       
           <div class="col-sm-10 col-md-4 col-lg-2 p-1 text-center">
-            <div class="card dayOne m-0">
+            <div class="card dayTwo m-0">
               <div class="card-body p-1">
                 <p class="card-title">Date</p>
                 <p class="temp">Temperature:</p>
@@ -117,7 +107,7 @@
           </div>
       
           <div class="col-sm-10 col-md-4 col-lg-2 p-1 text-center">
-            <div class="card dayOne m-0">
+            <div class="card dayThree m-0">
               <div class="card-body p-1">
                 <p class="card-title">Date</p>
                 <p class="temp">Temperature:</p>
@@ -128,7 +118,18 @@
           </div>
       
           <div class="col-sm-10 col-md-4 col-lg-2 p-1 text-center">
-            <div class="card dayOne m-0">
+            <div class="card dayFour m-0">
+              <div class="card-body p-1">
+                <p class="card-title">Date</p>
+                <p class="temp">Temperature:</p>
+                <p class="humidity">Humidity:</p>
+                <p class="wind">Wind</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-sm-10 col-md-4 col-lg-2 p-1 text-center">
+            <div class="card dayFive m-0">
               <div class="card-body p-1">
                 <p class="card-title">Date</p>
                 <p class="temp">Temperature:</p>
@@ -139,7 +140,7 @@
           </div>
         </div>
       </div>
-    </div>
+      </div>
 
     </div>
  </main>
