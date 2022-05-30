@@ -6,6 +6,7 @@
 body{
   padding: 0;
   margin: 0;
+  background-color: grey;
 }
 
 
@@ -24,7 +25,7 @@ body{
 /* Change coloring with hover */
 .btn:hover{
   background-color: blue;
-  color: black;
+  color: rgb(255, 255, 255);
 
 
 }
@@ -36,5 +37,5 @@ body{
 .card-body{
   text-align: left;
   font-weight: bold;
-  background-color: aqua;
+  background-color: rgb(26, 48, 119);
 }
